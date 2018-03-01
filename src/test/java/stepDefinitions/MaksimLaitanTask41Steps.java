@@ -8,10 +8,10 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Task41Steps {
+public class MaksimLaitanTask41Steps {
     private WebDriver driver;
 
-    public Task41Steps() {
+    public MaksimLaitanTask41Steps() {
         this.driver = Hooks.driver;
     }
 
@@ -21,4 +21,5 @@ public class Task41Steps {
         // Write code here that turns the phrase above into concrete actions
         driver.get("https://kristinek.github.io/test-sample");
     }
+
 }
