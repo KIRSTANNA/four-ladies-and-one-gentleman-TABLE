@@ -8,17 +8,17 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import java.util.Map;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
-public class SampleSteps {
+public class Task41Steps {
     private WebDriver driver;
 
-    public SampleSteps() {
+    public Task41Steps() {
         this.driver = Hooks.driver;
     }
 
 
+    @And("^I see you$")
+    public void iSeeYou() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        driver.get("https://kristinek.github.io/test-sample");
+    }
 }
