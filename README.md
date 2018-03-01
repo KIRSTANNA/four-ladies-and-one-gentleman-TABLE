@@ -4,6 +4,8 @@
 | Command Name | Description |
 | ------------ | ----------- |
 | Open the Base page | Open the base page of the application |
+| Login to the page | Add user name and password for access to the application |
+| Open TablePress page | Open page for TABLE testing |
 | Click top button All Tables | Click the top button “All Tables” of page TablePress |
 | Click top button Add New | Click the top button “Add New” of page TablePress |
 | Click top button Import | Click the top button “Import” of page TablePress |
